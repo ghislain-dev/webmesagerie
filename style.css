@@ -1,0 +1,49 @@
+.navv{
+    padding: 20px ;
+    width: 200px;
+    border-right:2px black solid ;
+    height: auto;
+    
+}
+.principal{
+    margin-left: 9px;
+    border: 2px black solid;
+    
+}
+.deuxieme{
+   
+    border-top: 1px solid #000;
+    
+}
+.charge{
+    display: flex;
+    margin-top: 200px;
+}
+.bouton1{
+    display: flex;
+    gap: 10px;
+}
+.bouton{
+    display: flex;
+    gap: 10px;
+}
+.trois{
+    margin-left: 200px;
+}
+.rechercher{
+    width: 340px;
+}
+.chargee{
+    display: flex;
+    margin-top: 200px;
+}
+.navv .active{
+    background-color: rgb(20, 123, 179);
+}
+@media(max-width: 768px) {
+    .navv{
+   
+    display: flex;
+    
+    }
+  }

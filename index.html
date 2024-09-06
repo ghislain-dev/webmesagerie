@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>acceuille</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="acceuille.css">
+</head>
+<body>
+    <div class="row">
+        <div class="col-lg-3 col-12 p-2 col-sm-10">
+            <div class="div p-2">
+                <h3>Messagerie</h3>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="">ussd</a></li>
+                        <li><a href="">Gsm</a></li>
+                        <li><a href="">Api</a></li>
+                    </ul>
+                </nav>
+                <form class="boutonAjout" action="" method="post">
+                    <button class="btn btn-danger">Ajouter un code Ussd</button>
+                    <button class="btn btn-success">Executer</button>
+                </form>
+                <form class="menucontrol" action="" method="post">
+                    <button class="acc btn btn-info">Parametres</button>
+                    <button class="acc btn btn-info">numeros</button>
+                    <button class="acc btn btn-info">apropos</button>
+                    
+                    <button class="acc active btn btn-info"><a href="contact.html">ACCUEIL</a></button>
+                    
+                </form>
+            </div>
+        </div>
+        <div class="col-lg-9 col-12 p-2">
+            <h6>selectionner un des modemes</h6>
+            <div class="card voircard">
+                <div class="row">
+                    <div class="col-lg-4 col-12">
+                        <div class="card voircar mt-2 p-2">
+                            <p>connexion au modem GSM téléphone</p>
+                            <form action="" method="post">
+                                <div class="row">
+                                    <div class="col-lg-3 col-12">
+                                        <label class="form-label" for="">Réseau</label>
+                                    </div>
+                                    <div class="col-lg-9 col-12">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option disabled selected>Open this select menu</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-lg-5">
+                                        <label class="form-label" for="">port COM:</label>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                                <div class="deconnexion">
+                                    <button class="btn btn-success">actualiser</button>
+                                    <a href="">Deconnexion</a>
+                                </div>
+                            </form>
+                            <p class="mt-4">connexion directe au mobile réseau</p>
+                            <p class="mt-2 justifier">connecter votre mobile sur un réseau local et recuper l'adresse ip attribuer à votre smartphone par un serveur local qui doit y etre au prealable installer et saisisses là ici</p>
+                            <form action="" method="post">
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <label class="form-label" for="">address ip</label>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <input class="form-control" type="password">
+                                    </div>
+                                </div>
+                                <button  class="btn btn-success width mt-2">vérifier le smatphon</button>
+                                <button class="btn btn-success mt-4">Enregistrer</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                        <div class="card mt-2 p-2">
+                            <p>conection direct</p>
+                            <form action="" method="post">
+                                <label class="form-label" for="">ACCOUNT sid</label>
+                                <input class="form-control" type="text">
+                                <label class="form-label" for="">AUTH TOKEN</label>
+                                <input class="form-control" type="text">
+                                <label class="form-label" for="">number</label>
+                                <input class="form-control" type="number">
+                                <button class="btn btn-success width mt-5">enregistrer</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-12 p-2">
+                        <div class="card mt-2 p-2">
+                            <p>connexion local</p>
+                            <label class="form-label" for="">[var] ACCOUNT SID</label>
+                            <input class="form-control" type="text">
+                            <label class="form-label" for="">[var] ACCOUNT TOKEN</label>
+                            <input class="form-control" type="text">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
