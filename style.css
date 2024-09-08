@@ -1,15 +1,14 @@
-.navv{
-    padding: 20px ;
-    width: 200px;
-    border-right:2px black solid ;
-    height: auto;
-    
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.principal{
+
+ .principal{
     margin-left: 9px;
     border: 2px black solid;
     
-}
+} 
 .deuxieme{
    
     border-top: 1px solid #000;
@@ -17,33 +16,32 @@
 }
 .charge{
     display: flex;
-    margin-top: 200px;
+    margin-top: 160px;
 }
 .bouton1{
-    display: flex;
-    gap: 10px;
+    margin-top: 30px;
 }
 .bouton{
     display: flex;
     gap: 10px;
 }
-.trois{
-    margin-left: 200px;
-}
+/* .trois{
+    margin-left: 160px;
+} */
 .rechercher{
     width: 340px;
 }
 .chargee{
     display: flex;
-    margin-top: 200px;
+    margin-top: 160px;
 }
-.navv .active{
+.nav .active{
     background-color: rgb(20, 123, 179);
 }
-@media(max-width: 768px) {
-    .navv{
-   
-    display: flex;
-    
+@media(max-width: 576px) {
+    .nav{
+        display: ;
+        justify-content: center;
+        align-items: center;
     }
   }

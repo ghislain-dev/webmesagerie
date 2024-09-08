@@ -13,99 +13,98 @@
     </header>
     <main>
         <div class="row">
-            <div class="navv col-md-4">
-                
-                   <a href="index.html" > <button class="btn btn-success mt-5">ACCUEIL</button></a>
-              
-                
-                    <a href="contact.html" ><button class=" active btn btn-success mt-5"  >CONTACT</button></a> 
-                
-              
-                    <a href="message.html"><button class="btn btn-success mt-5">MESSAGES</button></a>
-                    
-                
-                    <button class="btn btn-success mt-5">PARAMETRES</button>
-                
-                    <button class="btn btn-success mt-5">APROPOS</button>
-
+            <div class="nav col-md-2">
+                <ul class="navbar-nav ">
+                    <li class="nav-item"><a href="index.html" > <button class="btn btn-success mt-5">ACCUEIL</button></a></li>
+                    <li><a href="contact.html" ><button class=" active btn btn-success mt-5"  >CONTACT</button></a></li>
+                    <li><a href="message.html"><button class="btn btn-success mt-5">MESSAGES</button></a></li>
+                    <li><button class="btn btn-success mt-5">PARAMETRES</button></li>
+                    <li><button class="btn btn-success mt-5">APROPOS</button></li>
+                </ul>     
             </div>
-            <div class="principal col-md-10">
-                <div class="premier">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <label for="" class="form-label">Catégorie</label>
-                            <input class="form-control" type="text">
+            
+            <div class="principal col-md-9 p-3">
+                    <div class="premier">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="" class="form-label">Catégorie</label>
+                                <input class="form-control" type="text">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="" class="form-label">Description</label>
+                                <input class="form-control" type="text">
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <label for="" class="form-label">Description</label>
-                            <input class="form-control" type="text">
+                        <div class="chargee row p-2">
+                            <div class="bouton1 col-md-5 ">
+                                <button class="btn btn-secondary">Charger</button>
+                            </div>  
+                            
+                            <div class="trois col-md-6 mt-2 mx-4">
+                                <label for="">Recheche</label>
+                                <input class="rechercher" type="text">
+                            
+                                    <div class="bouton col-md-3 m-1 ">
+                                        <button class="btn btn-secondary">Nouveau</button>
+                                        <button class="btn btn-secondary">Modifier</button>
+                                        <button class="btn btn-success">Enregistrer</button>
+                                        <button class="btn btn-danger">Supprimer</button>
+                                    </div>
+                                
+                                
+                            </div>       
                         </div>
                     </div>
-                    <div class="chargee">
-                        <div class="bouton1 col-md-5 p-5">
-                            <button>Charger</button>
-                        </div>  
-                         
-                        <div class="trois col-md-6 mt-2 ">
-                            <label for="">Recheche</label>
-                            <input class="rechercher" type="text">
-                          
-                                <div class="bouton col-md-3 m-1 ">
-                                    <button class="btn btn-secondary">Nouveau</button>
-                                    <button class="btn btn-secondary">Modifier</button>
-                                    <button class="btn btn-success">Enregistrer</button>
-                                    <button class="btn btn-danger">Supprimer</button>
-                                </div>
-                              
-                             
-                        </div>       
+                    <div class="deuxieme ">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label for="" class="form-label">Nom </label>
+                                <input class="form-control" type="text">
+                            </div>
+                            <div class="col-md-4
+                            ">
+                                <label for="" class="form-label">Numero </label>
+                                <input class="form-control" type="text">
+                            </div>
+                            <div class="col-md-3
+                            ">
+                                <label for="" class="form-label">Réseau </label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected disabled>Reseaux</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="charge row p-2 ">
+                            <div class="bouton1 col-md-6 ">
+                                <button class="btn btn-secondary">Charger tous</button>
+                                <button class="btn btn-secondary">Charger par réseau </button>
+                            </div>  
+                            
+                            <div class="trois col-md-6 mt-2 justify justify-content-end ">
+                            
+                                    <label for="">Recheche</label>
+                                    <input class="rechercher" type="text">
+                               
+                                
+                            
+                                    <div class="bouton col-md-3 m-1 ">
+                                        <button class="btn btn-secondary">Nouveau</button>
+                                        <button class="btn btn-secondary">Modifier</button>
+                                        <button class="btn btn-success">Enregistrer</button>
+                                        <button class="btn btn-danger">Supprimer</button>
+                                    </div>
+                                
+                                
+                            </div>       
+                        </div>
+                        
                     </div>
                 </div>
-                <div class="deuxieme ">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <label for="" class="form-label">Nom </label>
-                            <input class="form-control" type="text">
-                        </div>
-                        <div class="col-md-4
-                        ">
-                            <label for="" class="form-label">Numero </label>
-                            <input class="form-control" type="text">
-                        </div>
-                        <div class="col-md-3
-                        ">
-                            <label for="" class="form-label">Réseau </label>
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected disabled>Reseaux</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="charge">
-                        <div class="bouton1 col-md-5 p-5">
-                            <button>Charger tous</button>
-                            <button>Charger par réseau </button>
-                        </div>  
-                         
-                        <div class="trois col-md-6 mt-2 ">
-                            <label for="">Recheche</label>
-                            <input class="rechercher" type="text">
-                          
-                                <div class="bouton col-md-3 m-1 ">
-                                    <button class="btn btn-secondary">Nouveau</button>
-                                    <button class="btn btn-secondary">Modifier</button>
-                                    <button class="btn btn-success">Enregistrer</button>
-                                    <button class="btn btn-danger">Supprimer</button>
-                                </div>
-                              
-                             
-                        </div>       
-                    </div>
-                    
-                </div>
             </div>
+            
         </div>    
     </main>
     <footer>

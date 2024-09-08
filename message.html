@@ -4,103 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="row">
-        
-        <div class="princ" style="display: flex;gap:5px; width: 100%; height: 100vh;  " >
-            <div class="navv col-md-3">
-                <div class="col-md-3 m-5">
-                <a href="index.html"> <button class="btn btn-success">ACCUEIL</button></a>
-                </div>
-                <div class="col-md-3 m-5">
-                    <a href="contact.html"><button class="btn btn-success" >CONTACT</button></a>
-                </div>
-                <div class="col-md-3 m-5">
-                    <a href="message.html"><button class="active btn btn-success">MESSAGES</button></a>
-                </div>
-                <div class="col-md-3 m-5">
-                    <button class="btn btn-success">PARAMETRES</button>
-                </div>
-                <div class="col-md-3 m-5">
-                    <button class="btn btn-success">APROPOS</button>
-                </div> 
-            </div>
-            <div class="primary border-1" >
-
-                <fieldset style="height: 80vh;padding-top: 10px; padding: 10px; border: solid 1px black; margin-top: 10px;">
-
+    <div class="row  ">
+        <div class="nav col-md-2 ">
+            <ul class="navbar-nav ">
+                <li class=""><a href="index.html" > <button class="btn btn-success mt-5">ACCUEIL</button></a></li>
+                <li><a href="contact.html" ><button class="btn btn-success mt-5"  >CONTACT</button></a></li>
+                <li><a href="message.html"><button class="active btn btn-success mt-5">MESSAGES</button></a></li>
+                <li><button class="btn btn-success mt-5">PARAMETRES</button></li>
+                <li><button class="btn btn-success mt-5">APROPOS</button></li>
+            </ul>     
+        </div>
+        <div class="col-lg-3 mt-5">
+            <div class="card mx-3" style="padding: 10px;">
+               
+                   <div class="head">
                     <legend class="te">Selectionner contact</legend>
-
-                    <div class="ch" style="justify-content: center; text-align:end; margin-bottom:10px ;">
-                        <button style=" background-color: rgb(9, 150, 206);">CHARGER</button>
+        
+                    <div class="form-control"  style="justify-content: center; text-align:end; margin-bottom:10px ;">
+                        <button  style=" background-color: rgb(9, 150, 206);">CHARGER</button>
                     </div>
-
-                    <div class="tab" style="width: 100%; height: 50vh; border: 2px solid black; display: flex; justify-content: center;text-align: center; ">
-                        <div class="bd-example">
-                            <table class="table table-striped">
-                            <thead>
-                            <tr>
-                                <th scope="col">Nom</th>
-                                <th scope="col">Message</th>
-                                <th scope="col">Reseau</th>
-                                
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                
-                            </tr>
-                            
-                            </tbody>
-                            </table>
-                            </div>
-                    </div>
-                    <div class="sup" style="justify-content: center;text-align: end; margin-top: 10px;">
-                        <button style=" background-color: rgb(150, 7, 66);">supprimer</button>
-                    </div>
-                </fieldset>
-            </div>
-            <div class="secondary" style="width: 65%; padding-top: 10px;" >
-                <fieldset style="width: 100%; height: 80vh;padding-top: 10px; padding: 10px; border: solid 1px black;">
-                    <legend>Tapez votre message Ici</legend>
-                    <div class="txt">
-                        <textarea name="" id="" cols="110" rows="10" style="border-radius: 10px 10px 20px 10px red;"></textarea>
-            
-                    </div>
-                    <div class="bt" style="display: flex; gap: 10px; text-align: center;justify-content: center;">
-                        <div class="bt1" >
-                        <button style="background-color: rgba(189, 162, 9, 0.507); color: black; text-align: center; border-radius: 10px 10px 10px 10px white; "> ENREGISTRER</button>
-                        </div>
-                        <div class="bt2">
-                            <button type="submit" style="background-color: rgba(2, 102, 141, 0.507); color: black; text-align: center; border-radius: 10px 10px 10px 10px white; ">ENVOYER</button>
+        
+                   </div>
+                    <div class="body">
+                        <div class="tab" style=" height: 50vh; border: 2px solid black;  ">
+                            <div class="bd-example">
+                                <table class="table table-striped">
+                                  <thead>
+                                  <tr>
+                                    <th scope="col">Nom</th>
+                                    <th scope="col">Message</th>
+                                    <th scope="col">Reseau</th>
+                                    
+                                  </tr>
+                                  </thead>
+                                  <tbody>
+                                  <tr>
+                                    
+                                  </tr>
+                                 
+                                  </tbody>
+                                </table>
+                                </div>
                         </div>
                     </div>
-                    <div class="bd-example">
-                        <table class="table table-striped">
-                        <thead>
-                        <tr>
-                            <th scope="col">Message</th>
-                            <th scope="col">Nom</th>
-                            <th scope="col">Numero</th>
-                            <th scope="col">Status</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            
-                        </tr>
-                        
-                        </tbody>
-                        </table>
-                        </div>
-
-                    </fieldset>
+                    <div class="form-control"  style="justify-content: center;text-align: end; margin-top: 10px;">
+                        <button class=""  style=" background-color: rgb(150, 7, 66);">supprimer</button>
+                    </div>
+                
             </div>
         </div>
+
+        <div class="col-lg-7 mt-5" style="padding: 5px;">
+
+            <div class="card md-3">
+                <div class="head">
+                    <legend class="form-label mx-3">Tapez votre message Ici</legend>
+                    <div class="txt"  style="padding: 5px;">
+                        <textarea class="form-control" name="" id="" cols="100" rows="15" style="border-radius: 10px 10px 20px 10px red;"></textarea>
+               
+                    </div>
+                </div>
+
+                <div class="bt" style="display: flex; gap: 10px; text-align: center;justify-content: center; margin-bottom: 3px;">
+                    <div class="bt1" >
+                       <button class="form-control" style="background-color: rgba(189, 162, 9, 0.507); color: black; text-align: center; border-radius: 10px 10px 10px 10px white; "> ENREGISTRER</button>
+                    </div>
+                    <div class="bt2">
+                         <button class="form-control" type="submit" style="background-color: rgba(2, 102, 141, 0.507); color: black; text-align: center; border-radius: 10px 10px 10px 10px white; ">ENVOYER</button>
+                    </div>
+                </div>
+
+                <div class="bd-example">
+                    <table class="table table-striped">
+                      <thead>
+                      <tr>
+                        <th scope="col">Message</th>
+                        <th scope="col">Nom</th>
+                        <th scope="col">Numero</th>
+                        <th scope="col">Status</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                        
+                      </tr>
+                     
+                      </tbody>
+                    </table>
+                    </div>
+            </div>
+
+        </div>
+      
     </div>
-   
 </body>
 </html>
